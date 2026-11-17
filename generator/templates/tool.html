@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="[[LANG]]"[[DIRATTR]]>
+<head>[[HEAD]]</head>
+<body>
+[[HEADER]]
+<div class="wrap">
+<div class="crumbs"><a href="index.html">[[home]]</a> &rsaquo; [[tool_h1]]</div>
+<main class="page">
+<h1 class="tool">[[tool_h1]]</h1>
+<div class="inshort">[[tool_inshort]]</div>
+<div class="privacy-note">🔒 [[faq6_a]]</div>
+<div class="panel">
+<form id="astroForm">
+<div class="row">
+<div class="field"><label for="bdate">[[f_date]]</label><input type="date" id="bdate" required></div>
+<div class="field"><label for="btime">[[f_time]]</label><input type="time" id="btime" value="12:00"></div>
+</div>
+<label class="check"><input type="checkbox" id="unknown"> [[f_unknown]]</label>
+<p id="unknownNote" class="status" hidden>[[unknown_note]]</p>
+<div class="row">
+<div class="field"><label for="city">[[f_city]]</label><input type="text" id="city" list="cityList" placeholder="[[f_city_ph]]" autocomplete="off"><datalist id="cityList"></datalist></div>
+</div>
+<div class="row">
+<div class="field"><label for="lat">[[f_lat]]</label><input type="number" id="lat" step="0.0001" min="-90" max="90"></div>
+<div class="field"><label for="lon">[[f_lon]]</label><input type="number" id="lon" step="0.0001" min="-180" max="180"></div>
+<div class="field"><label for="offset">[[f_offset]]</label><input type="number" id="offset" step="0.25" min="-14" max="14"></div>
+</div>
+<label class="check"><input type="checkbox" id="dst"> [[f_dst]]</label>
+<p style="margin-top:14px"><button class="btn" type="submit">[[btn_calculate]]</button></p>
+<p id="status" class="status" role="status"></p>
+</form>
+</div>
+<div id="results" hidden>
+<section class="block"><h2>[[results_h]]</h2>
+<div class="bigthree">
+<div class="bigcard"><div class="glyph">☉</div><div>[[big_sun]]</div><div class="sign" id="bigSun"></div><div class="deg" id="bigSunDeg"></div></div>
+<div class="bigcard"><div class="glyph">☽</div><div>[[big_moon]]</div><div class="sign" id="bigMoon"></div><div class="deg" id="bigMoonDeg"></div></div>
+<div class="bigcard"><div class="glyph">↑</div><div>[[big_rising]]</div><div class="sign" id="bigRising"></div><div class="deg" id="bigRisingDeg"></div></div>
+</div></section>
+<section class="block wheelwrap"><h2 style="text-align:left">[[wheel_h]]</h2><div id="wheel"></div></section>
+<section class="block"><h2>[[table_h]]</h2>
+<table class="astro"><thead><tr><th>[[col_body]]</th><th>[[col_sign]]</th><th>[[col_degree]]</th><th>[[col_house]]</th></tr></thead><tbody id="tbody"></tbody></table>
+<p style="margin-top:12px">[[cusp_note]]</p>
+<p style="margin-top:12px"><button class="btn ghost" id="copyBtn" type="button">[[btn_copy]]</button> <span id="copyStatus" class="status"></span></p>
+<textarea id="summaryText" hidden></textarea>
+</section>
+</div>
+<section class="block"><h2>[[tool_how_h]]</h2><p>[[tool_how_p]]</p><p>[[cusp_note]]</p></section>
+</main></div>
+[[FOOTER]]
+<script src="[[ASTROPREFIX]]cities.js"></script>
+<script src="[[ASTROPREFIX]]astro.js"></script>
+<script>
+var STRINGS = [[STRINGS_JSON]];
+var SIGN_GLYPHS = ['♈','♉','♊','♋','♌','♍','♎','♏','♐','♑','♒','♓'];
+var BODY_GLYPHS = {sun:'☉',moon:'☽',mercury:'☿',venus:'♀',mars:'♂',jupiter:'♃',saturn:'♄',uranus:'♅',neptune:'♆',pluto:'♇'};
+var PLANET_KEYS = ['mercury','venus','mars','jupiter','saturn','uranus','neptune','pluto'];
+function signName(english){ var idx = (window.ASTRO && ASTRO.SIGNS) ? ASTRO.SIGNS.indexOf(english) : -1; if(idx<0){ idx = ['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'].indexOf(english); } return (idx>=0 && STRINGS.signs[idx]) ? STRINGS.signs[idx] : english; }
+function fmtDeg(d){ var deg = Math.floor(d), min = Math.round((d-deg)*60); if(min===60){deg++;min=0;} return deg + '° ' + (min<10?'0':'') + min + '′'; }
+(function(){
+  var list = document.getElementById('cityList');
+  var cities = (typeof CITIES !== 'undefined') ? CITIES : (window.CITIES || []);
+  var frag = document.createDocumentFragment();
+  cities.forEach(function(c){ var o = document.createElement('option'); o.value = c.n + ', ' + c.c; frag.appendChild(o); });
+  list.appendChild(frag);
+  function findCity(){ var v = document.getElementById('city').value.trim().toLowerCase(); if(!v) return null; for(var i=0;i<cities.length;i++){ if((cities[i].n + ', ' + cities[i].c).toLowerCase() === v || cities[i].n.toLowerCase() === v) return cities[i]; } return null; }
+  document.getElementById('city').addEventListener('change', function(){ var c = findCity(); if(c){ document.getElementById('lat').value = c.lat; document.getElementById('lon').value = c.lng; document.getElementById('offset').value = c.tz; } });
+  document.getElementById('unknown').addEventListener('change', function(){ var u = this.checked; document.getElementById('btime').disabled = u; document.getElementById('unknownNote').hidden = !u; if(u) document.getElementById('btime').value = '12:00'; });
+  var lastSummary = '';
+  document.getElementById('copyBtn').addEventListener('click', function(){ var st = document.getElementById('copyStatus'); function done(ok){ st.textContent = ok ? STRINGS.copied : STRINGS.copy_failed; st.className = 'status ' + (ok?'ok':'err'); } if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(lastSummary).then(function(){done(true);}, function(){done(false);}); } else { var ta = document.getElementById('summaryText'); ta.hidden = false; ta.value = lastSummary; ta.select(); try { done(document.execCommand('copy')); } catch(e){ done(false); } ta.hidden = true; } });
+  document.getElementById('astroForm').addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var status = document.getElementById('status'); status.textContent=''; status.className='status';
+    if(typeof ASTRO === 'undefined' || !ASTRO.computeChart){ status.textContent = STRINGS.err_engine; status.className='status err'; return; }
+    var dv = document.getElementById('bdate').value; if(!dv){ status.textContent = STRINGS.err_date; status.className='status err'; return; }
+    var dp = dv.split('-'); var year=+dp[0], month=+dp[1], day=+dp[2];
+    var unknown = document.getElementById('unknown').checked;
+    var tv = unknown ? '12:00' : (document.getElementById('btime').value || '12:00'); var tp = tv.split(':'); var lh=+tp[0], lm=+(tp[1]||0);
+    var lat = parseFloat(document.getElementById('lat').value), lon = parseFloat(document.getElementById('lon').value), off = parseFloat(document.getElementById('offset').value);
+    if(isNaN(lat) || isNaN(lon) || isNaN(off)){ status.textContent = STRINGS.err_city; status.className='status err'; return; }
+    var effOff = off + (document.getElementById('dst').checked ? 1 : 0);
+    var utcMs = Date.UTC(year, month-1, day, lh, lm) - effOff*3600000;
+    var u = new Date(utcMs);
+    var chart;
+    try { chart = ASTRO.computeChart({year:u.getUTCFullYear(), month:u.getUTCMonth()+1, day:u.getUTCDate(), hourUTC:u.getUTCHours(), minUTC:u.getUTCMinutes(), lat:lat, lonEast:lon}); }
+    catch(e){ status.textContent = STRINGS.err_engine; status.className='status err'; return; }
+    render(chart, unknown); document.getElementById('results').hidden = false; document.getElementById('results').scrollIntoView({behavior:'smooth'});
+  });
+  function render(chart, unknown){
+    document.getElementById('bigSun').textContent = signName(chart.sun.sign);
+    document.getElementById('bigSunDeg').textContent = fmtDeg(chart.sun.degInSign);
+    document.getElementById('bigMoon').textContent = signName(chart.moon.sign);
+    document.getElementById('bigMoonDeg').textContent = fmtDeg(chart.moon.degInSign);
+    document.getElementById('bigRising').textContent = unknown ? STRINGS.rising_unavailable : signName(chart.asc.sign);
+    document.getElementById('bigRisingDeg').textContent = unknown ? '' : fmtDeg(chart.asc.degInSign);
+    var rows = [], lines = [STRINGS.summary_h];
+    function row(label, glyph, obj, showHouse){ rows.push('<tr><td>' + glyph + ' ' + label + '</td><td>' + signName(obj.sign) + '</td><td>' + fmtDeg(obj.degInSign) + '</td><td>' + (showHouse && obj.house ? obj.house : '—') + '</td></tr>'); lines.push(label + ': ' + signName(obj.sign) + ' ' + fmtDeg(obj.degInSign) + ((showHouse && obj.house) ? ' (' + STRINGS.house_label + ' ' + obj.house + ')' : '')); }
+    row(STRINGS.row_sun, BODY_GLYPHS.sun, chart.sun, !unknown);
+    row(STRINGS.row_moon, BODY_GLYPHS.moon, chart.moon, !unknown);
+    PLANET_KEYS.forEach(function(k){ row(STRINGS.planets[k], BODY_GLYPHS[k], chart.planets[k], !unknown); });
+    if(!unknown){ row(STRINGS.row_asc, '↑', chart.asc, false); row(STRINGS.row_mc, 'MC', chart.mc, false); lines.push(STRINGS.row_asc + ': ' + signName(chart.asc.sign) + ' ' + fmtDeg(chart.asc.degInSign)); }
+    document.getElementById('tbody').innerHTML = rows.join('');
+    lines.push(STRINGS.cusp_note); lastSummary = lines.join('\n');
+    drawWheel(chart, unknown);
+  }
+  function drawWheel(chart, unknown){
+    var ref = unknown ? 0 : chart.asc.lon;
+    function pt(lon, r){ var th = (180 - (lon - ref)) * Math.PI/180; return [220 + r*Math.cos(th), 220 - r*Math.sin(th)]; }
+    var s = '<svg viewBox="0 0 440 440" role="img" aria-label="' + STRINGS.wheel_h + '">';
+    s += '<circle cx="220" cy="220" r="205" fill="#ffffff" stroke="#062e2a" stroke-width="2"/><circle cx="220" cy="220" r="155" fill="none" stroke="#c9a227" stroke-width="1.5"/><circle cx="220" cy="220" r="105" fill="#f6f4ec" stroke="#e3ddc9"/>';
+    for(var i=0;i<12;i++){ var a=pt(i*30,205), b=pt(i*30,105); s += '<line x1="'+a[0].toFixed(1)+'" y1="'+a[1].toFixed(1)+'" x2="'+b[0].toFixed(1)+'" y2="'+b[1].toFixed(1)+'" stroke="#e3ddc9"/>'; var m=pt(i*30+15,180); s += '<text x="'+m[0].toFixed(1)+'" y="'+(m[1]+9).toFixed(1)+'" font-size="26" text-anchor="middle" fill="#062e2a">' + SIGN_GLYPHS[i] + '</text>'; }
+    function marker(lon, label){ var p1=pt(lon,205), p2=pt(lon,215); var t=pt(lon,228); s += '<line x1="'+p1[0].toFixed(1)+'" y1="'+p1[1].toFixed(1)+'" x2="'+p2[0].toFixed(1)+'" y2="'+p2[1].toFixed(1)+'" stroke="#b3261e" stroke-width="2.5"/><text x="'+t[0].toFixed(1)+'" y="'+(t[1]+5).toFixed(1)+'" font-size="14" font-weight="700" text-anchor="middle" fill="#b3261e">' + label + '</text>'; }
+    function planet(lon, glyph){ var p=pt(lon,128), q=pt(lon,152); s += '<line x1="'+q[0].toFixed(1)+'" y1="'+q[1].toFixed(1)+'" x2="'+p[0].toFixed(1)+'" y2="'+p[1].toFixed(1)+'" stroke="#c9a227"/><text x="'+p[0].toFixed(1)+'" y="'+(p[1]+8).toFixed(1)+'" font-size="23" text-anchor="middle" fill="#0b3d37">' + glyph + '</text>'; }
+    planet(chart.sun.lon, BODY_GLYPHS.sun); planet(chart.moon.lon, BODY_GLYPHS.moon);
+    PLANET_KEYS.forEach(function(k){ planet(chart.planets[k].lon, BODY_GLYPHS[k]); });
+    if(!unknown){ marker(chart.asc.lon, 'ASC'); marker(chart.mc.lon, 'MC'); }
+    s += '</svg>';
+    document.getElementById('wheel').innerHTML = s;
+  }
+})();
+</script>
+</body></html>
