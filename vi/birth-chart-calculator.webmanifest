@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — Công Cụ Tính Bản Đồ Sao",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "Công cụ tính bản đồ sao miễn phí: nhập ngày, giờ và nơi sinh của bạn để nhận các cung Mặt Trời, Mặt Trăng và Mọc, mọi vị trí hành tinh, vị trí Nhà Bằng Nhau và bánh xe bản đồ ngày sinh đầy đủ. Không đăng ký — được tính trong trình duyệt của bạn.",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",

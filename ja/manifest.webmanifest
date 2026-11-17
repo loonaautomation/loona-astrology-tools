@@ -1,7 +1,7 @@
 {
   "name": "Loona Astrology Tools",
   "short_name": "Astrology",
-  "description": "Calculate your free birth chart (natal chart) online: Sun, Moon and Rising signs, all planet positions, houses and a full chart wheel. Free, no sign-up, and your birth data never leaves your device.",
+  "description": "無料の出生チャート（ネイタルチャート）をオンラインで計算：太陽・月・アセンダントの星座、すべての惑星の位置、ハウス、そしてチャートホイール全体を表示します。無料・登録不要で、出生データがデバイスの外に出ることはありません。",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

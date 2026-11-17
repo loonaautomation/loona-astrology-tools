@@ -1,7 +1,7 @@
 {
   "name": "Loona Astrology Tools",
   "short_name": "Astrology",
-  "description": "Calculate your free birth chart (natal chart) online: Sun, Moon and Rising signs, all planet positions, houses and a full chart wheel. Free, no sign-up, and your birth data never leaves your device.",
+  "description": "Calcola gratis online il tuo tema natale: segni del Sole, della Luna e dell'Ascendente, tutte le posizioni dei pianeti, le case e la ruota completa del tema. Gratis, senza registrazione, e i tuoi dati di nascita non lasciano mai il tuo dispositivo.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

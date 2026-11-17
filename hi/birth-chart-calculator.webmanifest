@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — जन्म कुंडली कैलकुलेटर",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "मुफ़्त जन्म कुंडली कैलकुलेटर: अपनी जन्म तिथि, समय और स्थान डालकर सूर्य, चंद्रमा और लग्न राशियाँ, सभी ग्रहों की स्थितियाँ, सम भाव स्थान और पूरा जन्म कुंडली चक्र पाएँ। साइन-अप नहीं — आपके ब्राउज़र में बनता है।",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",

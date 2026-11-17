@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — Fødselshoroskop Beregner",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "Gratis fødselshoroskop beregner: indtast fødselsdato, -tid og -sted for at få Solens, Månens og Ascendantens tegn, alle planetpositioner, Lige Huse og et komplet horoskophjul. Ingen tilmelding — beregnet i din browser.",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",

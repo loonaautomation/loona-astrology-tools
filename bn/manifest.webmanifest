@@ -1,7 +1,7 @@
 {
   "name": "Loona Astrology Tools",
   "short_name": "Astrology",
-  "description": "Calculate your free birth chart (natal chart) online: Sun, Moon and Rising signs, all planet positions, houses and a full chart wheel. Free, no sign-up, and your birth data never leaves your device.",
+  "description": "আপনার বিনামূল্যে জন্ম ছক অনলাইনে তৈরি করুন: সূর্য, চন্দ্র ও লগ্ন রাশি, সব গ্রহের অবস্থান, ভাব ও সম্পূর্ণ ছক চক্র। বিনামূল্যে, সাইন-আপ নেই, এবং আপনার জন্মের তথ্য কখনো আপনার ডিভাইস ছেড়ে যায় না।",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

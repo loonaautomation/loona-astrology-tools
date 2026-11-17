@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — Calculator de hartă natală",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "Calculator gratuit de hartă natală: introduceți data, ora și locul nașterii pentru a obține semnele Soarelui, Lunii și Ascendentului, pozițiile tuturor planetelor, plasamentele în sistemul caselor egale și o roată completă a hărții natale. Fără înregistrare — calculat în browserul dvs.",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",

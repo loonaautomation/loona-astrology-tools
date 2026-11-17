@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — Kalkulator natalne karte",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "Besplatni kalkulator natalne karte: unesite datum, vrijeme i mjesto rođenja kako biste dobili znakove Sunca, Mjeseca i Podznaka, položaje svih planeta, smještaj u sustavu jednakih kuća i potpuni kotač natalne karte. Bez registracije — izračunato u vašem pregledniku.",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",

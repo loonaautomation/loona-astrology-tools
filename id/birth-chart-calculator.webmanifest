@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — Kalkulator Bagan Kelahiran",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "Kalkulator bagan kelahiran gratis: masukkan tanggal, waktu dan tempat lahir Anda untuk mendapatkan tanda Matahari, Bulan dan Ascendant, semua posisi planet, penempatan Rumah Sama Rata dan roda bagan natal lengkap. Tanpa daftar — dihitung di peramban Anda.",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",

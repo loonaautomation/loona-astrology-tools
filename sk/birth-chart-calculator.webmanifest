@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — Kalkulačka natálneho horoskopu",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "Bezplatná kalkulačka natálneho horoskopu: zadajte dátum, čas a miesto narodenia a získajte znamenia Slnka, Mesiaca a Ascendentu, pozície všetkých planét, umiestnenie v systéme rovných domov a plné koleso natálneho horoskopu. Bez registrácie — počítané vo vašom prehliadači.",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",

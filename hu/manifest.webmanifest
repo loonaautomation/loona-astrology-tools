@@ -1,7 +1,7 @@
 {
   "name": "Loona Astrology Tools",
   "short_name": "Astrology",
-  "description": "Calculate your free birth chart (natal chart) online: Sun, Moon and Rising signs, all planet positions, houses and a full chart wheel. Free, no sign-up, and your birth data never leaves your device.",
+  "description": "Számítsd ki ingyenes születési horoszkópodat (natális képletedet) online: Nap-, Hold- és Aszcendens-jegyek, minden bolygóállás, házak és a teljes képletkerék. Ingyenes, regisztráció nélkül, és a születési adataid soha nem hagyják el az eszközödet.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

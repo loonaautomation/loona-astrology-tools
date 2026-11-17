@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — เครื่องคำนวณแผนภูมิเกิด",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "เครื่องคำนวณแผนภูมิเกิดฟรี: กรอกวัน เวลา และสถานที่เกิดของคุณเพื่อรับราศีอาทิตย์ จันทร์ และลัคนา ตำแหน่งดาวเคราะห์ทั้งหมด การวางเรือนแบบเรือนเท่ากัน และวงล้อแผนภูมิกำเนิดเต็มรูปแบบ ไม่ต้องสมัคร — คำนวณในเบราว์เซอร์ของคุณ",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",

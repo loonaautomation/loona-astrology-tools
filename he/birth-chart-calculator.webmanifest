@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — מחשבון מפת לידה",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "מחשבון מפת לידה חינמי: הזן תאריך, שעה ומקום לידה כדי לקבל מזלות שמש, ירח ועולה, כל מיקומי כוכבי הלכת, מיקומי בתים שווים וגלגל מפת לידה מלא. ללא הרשמה — מחושב בדפדפן שלך.",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",

@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — Syntymäkarttalaskuri",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "Ilmainen syntymäkarttalaskuri: syötä syntymäpäiväsi, -aikasi ja -paikkasi, niin saat Aurinko-, Kuu- ja nousevan merkkisi, kaikkien planeettojen sijainnit, tasahuonesijoitukset ja täyden nataalikarttapyörän. Ei rekisteröitymistä — lasketaan selaimessasi.",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",

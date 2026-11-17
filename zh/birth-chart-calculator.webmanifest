@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — 出生星盘计算器",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "免费出生星盘计算器：输入出生日期、时间和地点，即可获得太阳、月亮和上升星座、所有行星位置、等宫制宫位以及完整的本命星盘轮。无需注册——在您的浏览器中计算。",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",

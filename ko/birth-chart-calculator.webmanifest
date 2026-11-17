@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — 출생 차트 계산기",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "무료 출생 차트 계산기: 출생 날짜, 시간, 장소를 입력하면 태양, 달, 상승궁, 모든 행성 위치, 이퀄 하우스 배치와 전체 네이탈 차트 휠을 얻을 수 있습니다. 회원가입 없음 — 브라우저에서 계산됩니다.",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",

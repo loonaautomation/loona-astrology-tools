@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — Születési horoszkóp kalkulátor",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "Ingyenes születési horoszkóp kalkulátor: add meg a születési dátumodat, időpontodat és helyedet, és megkapod a Nap-, Hold- és Aszcendens-jegyedet, minden bolygóállást, az egyenlő házrendszer szerinti elhelyezéseket és a teljes natális képletkereket. Regisztráció nélkül — a böngésződben készül.",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",

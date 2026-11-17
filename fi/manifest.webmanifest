@@ -1,7 +1,7 @@
 {
   "name": "Loona Astrology Tools",
   "short_name": "Astrology",
-  "description": "Calculate your free birth chart (natal chart) online: Sun, Moon and Rising signs, all planet positions, houses and a full chart wheel. Free, no sign-up, and your birth data never leaves your device.",
+  "description": "Laske ilmainen syntymäkarttasi (nataalikartta) verkossa: Aurinko-, Kuu- ja nouseva merkki, kaikkien planeettojen sijainnit, huoneet ja täysi karttapyörä. Ilmainen, ei rekisteröitymistä, eikä syntymätietosi koskaan poistu laitteeltasi.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

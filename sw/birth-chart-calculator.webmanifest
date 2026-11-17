@@ -1,7 +1,7 @@
 {
-  "name": "Loona Astrology Tools — Birth Chart Calculator",
+  "name": "Loona Astrology Tools — Kikokotoo cha Chati ya Kuzaliwa",
   "short_name": "Birth Chart",
-  "description": "Free birth chart calculator: enter your birth date, time and place to get your Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel. No sign-up — calculated in your browser.",
+  "description": "Kikokotoo cha chati ya kuzaliwa bila malipo: weka tarehe, saa na mahali pa kuzaliwa kwako ili kupata ishara za Jua, Mwezi na Inukio, nafasi zote za sayari, uwekaji wa Nyumba Sawa na gurudumu kamili la chati ya asili. Hakuna kujisajili — huhesabiwa ndani ya kivinjari chako.",
   "start_url": "birth-chart-calculator.html",
   "scope": ".",
   "display": "standalone",
