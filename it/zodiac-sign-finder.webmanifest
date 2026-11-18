@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Segno Zodiacale",
+  "short_name": "Zodiac Finder",
+  "description": "Trova gratuitamente il tuo segno zodiacale: inserisci la tua data di nascita per scoprire subito il tuo segno zodiacale (segno solare), le sue date, l'elemento, il pianeta dominante e i tratti. Senza registrazione — funziona nel tuo browser.",
+  "start_url": "zodiac-sign-finder.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
