@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — 별자리 찾기",
+  "short_name": "Zodiac Finder",
+  "description": "무료 별자리 찾기: 생일을 입력하면 별자리(태양 별자리), 기간, 원소, 지배 행성과 특성을 즉시 확인할 수 있습니다. 회원가입 없음 — 브라우저에서 작동합니다.",
+  "start_url": "zodiac-sign-finder.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
