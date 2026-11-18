@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Signe du Zodiaque",
+  "short_name": "Zodiac Finder",
+  "description": "Recherche gratuite de signe du zodiaque : saisissez votre date de naissance pour trouver instantanément votre signe astrologique (signe solaire), ses dates, son élément, sa planète maîtresse et ses traits. Sans inscription — fonctionne dans votre navigateur.",
+  "start_url": "zodiac-sign-finder.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
