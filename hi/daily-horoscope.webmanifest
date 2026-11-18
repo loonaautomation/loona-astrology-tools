@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Loona Daily Horoscope",
+  "short_name": "Horoscope",
+  "description": "सभी 12 राशियों का मुफ़्त दैनिक राशिफल — आज का प्रेम, करियर, धन, ऊर्जा, भाग्यशाली अंक और रंग। बिना साइन-अप, बिना डाउनलोड — आपके ब्राउज़र में मुफ़्त बनाया गया।",
+  "start_url": "daily-horoscope.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

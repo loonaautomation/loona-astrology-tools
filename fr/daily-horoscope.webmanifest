@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Loona Daily Horoscope",
+  "short_name": "Horoscope",
+  "description": "Horoscope quotidien gratuit pour les 12 signes : amour, carrière, argent, énergie, nombre et couleur porte-bonheur du jour. Sans inscription, dans le navigateur.",
+  "start_url": "daily-horoscope.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
