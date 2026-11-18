@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Loona Zodiac Sign Finder",
+  "short_name": "Zodiac Finder",
+  "description": "Bezplatný vyhľadávač znamenia zverokruhu: zadajte dátum narodenia a okamžite zistite svoje znamenie zverokruhu (slnečné znamenie), jeho dátumy, živel, vládnucu planétu a vlastnosti. Bez registrácie — funguje vo vašom prehliadači.",
+  "start_url": "zodiac-sign-finder.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
