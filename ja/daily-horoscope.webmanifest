@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Loona Daily Horoscope",
+  "short_name": "Horoscope",
+  "description": "全12星座の今日の無料星占いです。恋愛運、仕事運、金運、エネルギーの流れに加えて、ラッキーナンバーとラッキーカラー、今日の評価、今日の気分までまとめてお届けします。登録もダウンロードも不要で、ブラウザの中でそのまま読める、毎日新しく更新される無料占いです。毎朝のささやかな楽しみとして、気軽にチェックしてみてください。",
+  "start_url": "daily-horoscope.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
