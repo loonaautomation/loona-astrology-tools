@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Zodiac Sign Finder",
+  "short_name": "Zodiac Finder",
+  "description": "Gratis stjärnteckensökare: ange ditt födelsedatum och hitta direkt ditt stjärntecken (soltecken), dess datum, element, härskande planet och egenskaper. Ingen registrering — fungerar i din webbläsare.",
+  "start_url": "zodiac-sign-finder.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
