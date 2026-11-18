@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — राशि खोजक",
+  "short_name": "Zodiac Finder",
+  "description": "मुफ़्त राशि खोजक: अपनी जन्म तिथि डालें और तुरंत अपनी राशि (सूर्य राशि), उसकी तिथियाँ, तत्व, शासक ग्रह और गुण जानें। साइन-अप नहीं — आपके ब्राउज़र में काम करता है।",
+  "start_url": "zodiac-sign-finder.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
