@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Loona Daily Horoscope",
+  "short_name": "Horoscope",
+  "description": "ดวงรายวันฟรีครบ 12 ราศี — ความรัก การงาน การเงิน พลังงาน เลขนำโชคและสีมงคลสำหรับวันนี้ ไม่ต้องสมัคร ไม่ต้องดาวน์โหลด ฟรีในเบราว์เซอร์ของคุณ อัปเดตใหม่ทุกวัน",
+  "start_url": "daily-horoscope.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

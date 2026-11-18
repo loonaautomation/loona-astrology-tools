@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Loona Daily Horoscope",
+  "short_name": "Horoscope",
+  "description": "为全部12个星座提供今日免费星座运势：爱情运、事业运、财运与能量状态，还有幸运数字、幸运颜色、今日评分和今日心情，内容完整又轻松易读。无需注册、无需下载，完全在你的浏览器中生成，每天准时更新，随时打开就能查看今天的运势走向、小提醒和幸运指引，陪你开启新的一天。操作简单，手机和电脑都能流畅使用，早上花一分钟就能读完。",
+  "start_url": "daily-horoscope.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
