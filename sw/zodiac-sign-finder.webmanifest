@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Zodiac Sign Finder",
+  "short_name": "Zodiac Finder",
+  "description": "Kitafuta ishara za nyota cha bure: weka tarehe yako ya kuzaliwa ili kupata mara moja ishara yako ya nyota (ishara ya Jua), tarehe zake, elementi yake, sayari inayotawala na sifa zake. Hakuna kujisajili — hufanya kazi kwenye kivinjari chako.",
+  "start_url": "zodiac-sign-finder.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
