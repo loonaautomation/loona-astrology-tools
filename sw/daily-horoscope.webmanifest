@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Loona Daily Horoscope",
+  "short_name": "Horoscope",
+  "description": "Nyota ya kila siku bure kwa ishara zote 12 — upendo, kazi, pesa, nguvu, namba na rangi ya bahati kwa leo. Hakuna kujisajili wala kupakua — bure kivinjari.",
+  "start_url": "daily-horoscope.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
