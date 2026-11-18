@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Zodiac Sign Finder",
+  "short_name": "Zodiac Finder",
+  "description": "免费星座查询工具：输入您的出生日期，即刻查到您的星座（太阳星座）、日期、元素、守护行星和性格特点。无需注册——在您的浏览器中运行。",
+  "start_url": "zodiac-sign-finder.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
