@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Zodiac Sign Finder",
+  "short_name": "Zodiac Finder",
+  "description": "Безкоштовний пошук знака зодіаку: введіть дату народження, щоб миттєво знайти свій знак зодіаку (знак Сонця), його дати, стихію, планету-покровителя та риси. Без реєстрації — працює у вашому браузері.",
+  "start_url": "zodiac-sign-finder.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
