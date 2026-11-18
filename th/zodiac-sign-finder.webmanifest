@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Zodiac Sign Finder",
+  "short_name": "Zodiac Finder",
+  "description": "เครื่องมือค้นหาราศีฟรี: กรอกวันเกิดของคุณเพื่อค้นหาราศีของคุณ (ราศีอาทิตย์) วันที่ ธาตุ ดาวเคราะห์ผู้ครอง และลักษณะนิสัยได้ทันที ไม่ต้องสมัครสมาชิก — ทำงานในเบราว์เซอร์ของคุณ",
+  "start_url": "zodiac-sign-finder.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
