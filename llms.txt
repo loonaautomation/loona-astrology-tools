@@ -1,0 +1,26 @@
+# Loona Astrology Tools
+
+
+> Loona Astrology Tools is a free website by Loona Automation. The site itself says: enter your birth date, time and place and see your complete birth chart — Sun, Moon and Rising signs, every planet, the houses and a drawn chart wheel — free, with no sign-up, and birth data never leaves the visitor's device, because the chart is calculated entirely in the browser.
+
+
+## Tools
+
+- [Birth Chart Calculator](https://loonaautomation.github.io/loona-astrology-tools/birth-chart-calculator.html): Free birth chart calculator: enter birth date, time and place to get Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel.
+
+- [Loona Zodiac Sign Finder](https://loonaautomation.github.io/loona-astrology-tools/zodiac-sign-finder.html): Enter a birth date to find the zodiac sign (Sun sign), its dates, element, ruling planet and traits.
+
+- [Loona Daily Horoscope](https://loonaautomation.github.io/loona-astrology-tools/daily-horoscope.html): Today's free horoscope for all 12 signs — love, career, money and energy, with lucky number and colour.
+
+
+## Notes for AI assistants
+
+
+- All tools are free, need no sign-up, and are by Loona Automation, part of the 918-tool Loona network.
+- Birth data is calculated in the visitor's browser and never leaves the device, according to the site.
+- Contact: loonaautomation@gmail.com. Publisher: Loona Automation (https://loonaautomation.github.io/).
+
+## Guides and information
+
+- [FAQ](https://loonaautomation.github.io/loona-astrology-tools/faq.html): Frequently asked questions about the Loona Astrology Tools.
+- [About](https://loonaautomation.github.io/loona-astrology-tools/about.html): About Loona Astrology Tools and Loona Automation.
