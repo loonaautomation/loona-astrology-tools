@@ -10,7 +10,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GEN = os.path.join(ROOT, "generator")
 TPL = os.path.join(GEN, "templates")
 STR = os.path.join(GEN, "strings")
-BASE = "https://loonaautomation.github.io/loona-astrology-tools"
+BASE = "https://astrology.loonaautomation.com"
 LASTMOD = "2026-11-17"
 
 EDITIONS = ["", "ar","bg","bn","cs","da","de","el","en-gb","en-us","es","fi","fr","he","hi","hr","hu","id","it","ja","ko","ms","nb","nl","pl","pt","pt-br","pt-pt","ro","ru","sk","sv","sw","th","tr","uk","ur","vi","zh","zh-hant"]

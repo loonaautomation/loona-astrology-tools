@@ -6,11 +6,11 @@
 
 ## Tools
 
-- [Birth Chart Calculator](https://loonaautomation.github.io/loona-astrology-tools/birth-chart-calculator.html): Free birth chart calculator: enter birth date, time and place to get Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel.
+- [Birth Chart Calculator](https://astrology.loonaautomation.com/birth-chart-calculator.html): Free birth chart calculator: enter birth date, time and place to get Sun, Moon and Rising signs, all planet positions, Equal House placements and a full natal chart wheel.
 
-- [Loona Zodiac Sign Finder](https://loonaautomation.github.io/loona-astrology-tools/zodiac-sign-finder.html): Enter a birth date to find the zodiac sign (Sun sign), its dates, element, ruling planet and traits.
+- [Loona Zodiac Sign Finder](https://astrology.loonaautomation.com/zodiac-sign-finder.html): Enter a birth date to find the zodiac sign (Sun sign), its dates, element, ruling planet and traits.
 
-- [Loona Daily Horoscope](https://loonaautomation.github.io/loona-astrology-tools/daily-horoscope.html): Today's free horoscope for all 12 signs — love, career, money and energy, with lucky number and colour.
+- [Loona Daily Horoscope](https://astrology.loonaautomation.com/daily-horoscope.html): Today's free horoscope for all 12 signs — love, career, money and energy, with lucky number and colour.
 
 
 ## Notes for AI assistants
@@ -22,5 +22,5 @@
 
 ## Guides and information
 
-- [FAQ](https://loonaautomation.github.io/loona-astrology-tools/faq.html): Frequently asked questions about the Loona Astrology Tools.
-- [About](https://loonaautomation.github.io/loona-astrology-tools/about.html): About Loona Astrology Tools and Loona Automation.
+- [FAQ](https://astrology.loonaautomation.com/faq.html): Frequently asked questions about the Loona Astrology Tools.
+- [About](https://astrology.loonaautomation.com/about.html): About Loona Astrology Tools and Loona Automation.
