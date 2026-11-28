@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Love Compatibility Calculator",
+  "short_name": "Love Compatibility Calculator",
+  "description": "Free love compatibility calculator: enter two names for a fun name-numerology compatibility score, with an optional Life Path blend from both birth dates. For fun — no sign-up.",
+  "start_url": "love-compatibility-calculator.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

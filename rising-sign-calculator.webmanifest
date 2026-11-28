@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Rising Sign Calculator",
+  "short_name": "Rising Sign",
+  "description": "Free Rising sign calculator: enter your birth date, exact birth time and birth place to find your Rising sign (Ascendant), its degree and ruling planet. No sign-up — works in your browser.",
+  "start_url": "rising-sign-calculator.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

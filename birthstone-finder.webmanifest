@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Birthstone Finder",
+  "short_name": "Birthstone Finder",
+  "description": "Free birthstone finder: pick your birth month to see its modern and traditional birthstones, colour, meaning and zodiac signs. No sign-up — works in your browser.",
+  "start_url": "birthstone-finder.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

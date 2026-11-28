@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Moon Phase Calculator",
+  "short_name": "Moon Phase",
+  "description": "Free Moon phase calculator: enter any date to see the Moon phase, illumination percentage, Moon age and the days until the next full and new Moon. No sign-up — works in your browser.",
+  "start_url": "moon-phase-calculator.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "../icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

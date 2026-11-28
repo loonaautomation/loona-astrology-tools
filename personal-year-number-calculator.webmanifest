@@ -1,0 +1,28 @@
+{
+  "name": "Loona Astrology Tools — Personal Year Number Calculator",
+  "short_name": "Personal Year Number Calculato",
+  "description": "Free personal year number calculator: enter your birth month and day plus a year to see your Personal Year number 1–9, its theme and your place in the 9-year cycle. No sign-up.",
+  "start_url": "personal-year-number-calculator.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -12,6 +12,26 @@
 
 - [Loona Daily Horoscope](https://astrology.loonaautomation.com/daily-horoscope.html): Today's free horoscope for all 12 signs — love, career, money and energy, with lucky number and colour.
 
+- [Loona Zodiac Compatibility Calculator](https://astrology.loonaautomation.com/zodiac-compatibility-calculator.html): Free zodiac compatibility calculator: pick any two zodiac signs to see your compatibility score, element match, love, friendship and work scores, strengths and challenges. No sign-up — works in your browser.
+
+- [Loona Moon Sign Calculator](https://astrology.loonaautomation.com/moon-sign-calculator.html): Free Moon sign calculator: enter your birth date, time and place to find your Moon sign and its degree, calculated in your browser with a real astronomy engine. No sign-up.
+
+- [Loona Rising Sign Calculator](https://astrology.loonaautomation.com/rising-sign-calculator.html): Free Rising sign calculator: enter your birth date, exact birth time and birth place to find your Rising sign (Ascendant), its degree and ruling planet. No sign-up — works in your browser.
+
+- [Loona Moon Phase Calculator](https://astrology.loonaautomation.com/moon-phase-calculator.html): Free Moon phase calculator: enter any date to see the Moon phase, illumination percentage, Moon age and the days until the next full and new Moon. No sign-up — works in your browser.
+
+- [Loona Chinese Zodiac Calculator](https://astrology.loonaautomation.com/chinese-zodiac-calculator.html): Free Chinese zodiac calculator: enter your birth date or year to find your Chinese zodiac animal, element, Yin/Yang side, traits, lucky numbers and colours. No sign-up — works in your browser.
+
+- [Loona Life Path Number Calculator](https://astrology.loonaautomation.com/life-path-number-calculator.html): Free Life Path number calculator: enter your birth date to find your numerology Life Path number (1–9, 11, 22 or 33) with every step of the working shown. No sign-up — works in your browser.
+
+- [Loona Numerology Calculator](https://astrology.loonaautomation.com/numerology-calculator.html): Free numerology calculator: enter your full birth name to get your Destiny, Soul Urge and Personality numbers with a full letter-by-letter Pythagorean breakdown. No sign-up.
+
+- [Loona Personal Year Number Calculator](https://astrology.loonaautomation.com/personal-year-number-calculator.html): Free personal year number calculator: enter your birth month and day plus a year to see your Personal Year number 1–9, its theme and your place in the 9-year cycle. No sign-up.
+
+- [Loona Birthstone Finder](https://astrology.loonaautomation.com/birthstone-finder.html): Free birthstone finder: pick your birth month to see its modern and traditional birthstones, colour, meaning and zodiac signs. No sign-up — works in your browser.
+
+- [Loona Love Compatibility Calculator](https://astrology.loonaautomation.com/love-compatibility-calculator.html): Free love compatibility calculator: enter two names for a fun name-numerology compatibility score, with an optional Life Path blend from both birth dates. For fun — no sign-up.
+
 
 ## Notes for AI assistants
 
